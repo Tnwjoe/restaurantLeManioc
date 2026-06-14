@@ -141,6 +141,17 @@
          font-size: 1rem;
      }
 
+     .cards {
+         grid-template-columns: 1fr;
+         justify-items: center;
+     }
+
+     .card {
+         width: 100%;
+         max-width: 320px;
+     }
+
+
  }
 
 
@@ -164,11 +175,6 @@
      margin: auto;
  }
 
- @media (max-width: 900px) {
-     .cards {
-         grid-template-columns: 1fr;
-     }
- }
 
  .card {
      width: 280px;
@@ -198,31 +204,6 @@
      padding: 0 15px 20px;
  }
 
- /*a proppos*/
- .why-us {
-     padding: 80px 20px;
-     text-align: center;
- }
-
- .advantages {
-     display: flex;
-     justify-content: center;
-     gap: 30px;
-     flex-wrap: wrap;
- }
-
- .advantage {
-     background: white;
-     width: 250px;
-     padding: 25px;
-     border-radius: 15px;
-     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
- }
-
- .advantage:hover {
-     transform: translateY(-5px);
-     transition: 0.3s;
- }
 
 
  .whatsapp-btn {

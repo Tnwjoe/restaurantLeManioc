@@ -84,7 +84,7 @@
      border: 2px solid #5A3D7A;
      border-radius: 8px;
      cursor: pointer;
-     margin: 50px;
+     margin: 10px;
      transition: all 0.3s ease;
      font-weight: 600;
      animation: fadeIn 1s ease-out 0.7s both;
@@ -163,6 +163,16 @@
          margin-bottom: 10px;
      }
 
+     .cards {
+         grid-template-columns: 1fr;
+         justify-items: center;
+     }
+
+     .card {
+         width: 100%;
+         max-width: 320px;
+     }
+
  }
 
 
@@ -229,7 +239,9 @@
      overflow: hidden;
      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
      transition: 0.3s;
+
  }
+
 
  .card:hover {
      transform: scale(1.08);
