@@ -64,7 +64,7 @@
      background-color: #6B4C9A;
      color: #F5E6D3;
      padding: 12px 30px;
-     font-size: 1rem;
+     font-size: 0, 5rem;
      border: 2px solid #5A3D7A;
      border-radius: 8px;
      cursor: pointer;
@@ -131,37 +131,8 @@
  }
 
 
- .hero {
-     height: 80vh;
-     background-image: url("images/restaurant.jpg");
-     background-size: cover;
-     background-position: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
 
- .hero h1 {
-     font-size: clamp(2.5rem, 8vw, 5rem);
- }
 
- .overlay {
-     background: rgba(0, 0, 0, 0.5);
-     padding: 40px;
-     border-radius: 15px;
-     text-align: center;
-     color: white;
- }
-
- .overlay h1 {
-     font-size: 4rem;
-     color: white;
- }
-
- .overlay p {
-     color: white;
-     max-width: 600px;
- }
 
  .hero-buttons {
      display: flex;
@@ -171,11 +142,9 @@
      font-size: 1rem;
  }
 
- .specialites {
-     padding: 80px 20px;
-     text-align: center;
- }
 
+
+ /*cartes du Traiteur*/
  .cards {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
