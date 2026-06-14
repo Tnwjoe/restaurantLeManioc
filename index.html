@@ -9,16 +9,131 @@
 </head>
 
 <body>
-    <h1>Restaurant le manioc</h1>
-    <p>Bienvenue au restaurant le manioc, nous sommes heureux de vous accueillir pour une expérience culinaire
-        inoubliable. Notre menu propose une variété de plats délicieux préparés avec des ingrédients frais et de
-        qualité. Que vous soyez amateur de cuisine traditionnelle ou à la recherche de saveurs innovantes, notre équipe
-        de chefs talentueux est là pour satisfaire vos papilles. Nous espérons que vous apprécierez votre repas et que
-        vous passerez un agréable moment dans notre établissement.</p>
+    <nav class="site-nav">
+        <div class="logo">🍽️ Le Manioc</div>
 
-    <button onclick="window.location.href='2.index.html'">Voir le menu</button>
-    <button onclick="window.location.href='3.index.html'">Service traiteur</button>
-    <script src="script.js"></script>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Traiteur.html">Traiteur</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="overlay">
+            <h1>Restaurant Le Manioc</h1>
+
+            <p>
+                Découvrez les saveurs authentiques de la cuisine congolaise
+                dans un cadre chaleureux et convivial.
+            </p>
+
+            <div class="hero-buttons">
+                <button onclick="window.location.href='Menu.html'">
+                    Voir le menu
+                </button>
+
+                <button onclick="window.location.href='Traiteur.html'">
+                    Service traiteur
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialites">
+
+        <h2>Nos spécialités</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="images/pondu.jpg" alt="Pondu">
+                <h3>Pondu</h3>
+                <p>Feuilles de manioc pilées et mijotées selon la tradition congolaise.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/mbisi.jpg" alt="poisson">
+                <h3>Mbisi Ya Mayi</h3>
+                <p>Poisson frais délicatement assaisonné et cuisiné avec des épices congolaises.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/poulet.jpg" alt="Poulet">
+                <h3>Poulet grillé</h3>
+                <p>Poulet mariné aux épices, puis grillé pour une chair tendre et savoureuse.</p>
+            </div>
+
+            <div></div>
+
+        </div>
+
+    </section>
+
+    <section class="why-us">
+
+        <h2>Pourquoi choisir Le Manioc ?</h2>
+
+        <div class="advantages">
+
+            <div class="advantage">
+                🍽️
+                <h3>Cuisine authentique</h3>
+                <p>Des recettes congolaises préparées avec passion.</p>
+            </div>
+
+            <div class="advantage">
+                🚚
+                <h3>Service traiteur</h3>
+                <p>Pour vos mariages, anniversaires et événements.</p>
+            </div>
+
+            <div class="advantage">
+                ❤️
+                <h3>Accueil chaleureux</h3>
+                <p>Une ambiance familiale et conviviale.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <a href="https://wa.me/243835939733" class="whatsapp-btn" target="_blank">
+        💬
+    </a>
+
+    <section class="contact-section">
+
+        <h2>Contactez-nous</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+                <h3>📍 Adresse</h3>
+                <p>Kinshasa, RDC</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📞 Téléphone</h3>
+                <p>+243 835 939 733</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>✉️ Email</h3>
+                <p>joendelo3@gmail.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>🕒 Horaires</h3>
+                <p>Lundi - Samedi<br>08h00 - 18h00</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Restaurant Le Manioc - Tous droits réservés</p>
+    </footer>
 </body>
 
 </html>
