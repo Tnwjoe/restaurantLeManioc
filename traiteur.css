@@ -128,9 +128,20 @@
          justify-content: center;
      }
 
+     .overlay {
+         width: 90%;
+         padding: 25px;
+     }
+
+     .overlay h1 {
+         font-size: 3rem;
+     }
+
+     .overlay p {
+         font-size: 1rem;
+     }
+
  }
-
-
 
 
 
