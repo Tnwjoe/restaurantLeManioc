@@ -285,58 +285,6 @@
      margin-top: 50px;
  }
 
- /*menu*/
-
- .menu-section {
-     background: white;
-     padding: 25px;
-     border-radius: 20px;
-     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-     transition: 0.3s ease;
-     margin-bottom: 60px;
- }
-
- .menu-container {
-
-     gap: 4rem;
- }
-
- .menu-section:hover {
-     transform: translateY(-5px);
- }
-
- .menu-section h2 {
-     color: #6B4C9A;
-     text-align: center;
-     margin-bottom: 20px;
-     border-bottom: 3px solid #6B4C9A;
-     padding-bottom: 10px;
- }
-
- .menu-line {
-     display: flex;
-     align-items: center;
-     padding: 12px 0;
- }
-
- .dotted-line {
-     flex: 1;
-     border-bottom: 1px dotted #ccc;
-     margin: 0 15px;
- }
-
- .menu-line:hover {
-     padding-left: 10px;
-     color: #6B4C9A;
- }
-
- .price {
-     background: #6B4C9A;
-     color: white;
-     padding: 5px 12px;
-     border-radius: 20px;
-     font-size: 0.9rem;
- }
 
  /* moins d'espace vide*/
  section {
